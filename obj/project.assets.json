@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Oracle.ManagedDataAccess.Core/2.19.60": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oracle.ManagedDataAccess.Core/2.19.60": {
+      "sha512": "hQqREt883jwr0LYrYgOtkqgZ3TbEyCGm/eekwA1Vth66aD66752PRKBbTvM9b1a71ewuvaXRy2T9KVwlSMYaTw==",
+      "type": "package",
+      "path": "oracle.manageddataaccess.core/2.19.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PerfCounters/register_odpc_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpc_perfmon_counters.ps1",
+        "info.txt",
+        "lib/netstandard2.0/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.core.2.19.60.nupkg.sha512",
+        "oracle.manageddataaccess.core.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Oracle.ManagedDataAccess.Core >= 2.19.60"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Razat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Razat\\source\\repos\\OracleSampleProject\\OracleSampleProject.csproj",
+      "projectName": "OracleSampleProject",
+      "projectPath": "C:\\Users\\Razat\\source\\repos\\OracleSampleProject\\OracleSampleProject.csproj",
+      "packagesPath": "C:\\Users\\Razat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Razat\\source\\repos\\OracleSampleProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Razat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Oracle.ManagedDataAccess.Core": {
+            "target": "Package",
+            "version": "[2.19.60, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
