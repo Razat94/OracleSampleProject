@@ -6,8 +6,9 @@ A sample ASP.NET Core MVC Web Application that connects with an Oracle Database.
 
 ### How to run the project in Visual Studio
 To run the project in Visual Studio, simply:
-	1. Download the project from this repository
-	2. Open the project in Visual Studio
+
+	1. Download the project from this repository <br />
+	2. Open the project in Visual Studio <br />
 	3. Click "IIS Express"
 
 <div align = "center">
@@ -16,7 +17,8 @@ To run the project in Visual Studio, simply:
 
 ### How to run the project in Visual Studio Code
 To run the project in Visual Studio <strong>Code</strong>, simply:
-	1. Download the project from this repository
-	2. Open the project in Visual Studio Code
-	3. Open up the terminal
-	4. Run the command ``` dotnet run ```
+
+	1. Download the project from this repository <br />
+	2. Open the project in Visual Studio Code <br />
+	3. Open up the terminal <br />
+	4. Run the command ``` dotnet run ``` <br />
